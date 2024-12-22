@@ -1,0 +1,201 @@
+<html>
+<head>
+<style>
+.imag{
+            width: 150px;  /* Width of the image */
+            height: 150px; /* Height of the image */
+            object-fit: cover;  /* Ensures the image covers the entire circle */
+            border-radius: 50%;  /* This makes the image circular */
+            border: 5px solid #fff;  /* Optional: Adds a white border around the circle */
+        }
+        /* Textarea style */
+        .review-textbox {background-color:black;
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 5px;
+            resize: vertical;
+            font-size: 16px;
+            color: white;
+            transition: border-color 0.3s ease;
+        }
+
+        /* Focus effect on textarea */
+        .review-textbox:focus {
+            outline: none;
+            border-color: #4CAF50;
+        }
+
+        /* Submit button style */
+        .submit-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        /* Submit button hover effect */
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+
+
+.rate-container {
+            text-align: center;
+        }
+           .rate-button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .rate-button:hover {
+            background-color: #45a049;
+        }
+
+                .stars {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        
+        .stars input[type="radio"] {
+            display: none;
+        }
+
+        .stars label {
+            font-size: 40px;
+            color: #ccc;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .stars input[type="radio"]:checked ~ label {
+            color: #ff9800;
+        }
+
+         .stars input[type="radio"]:checked ~ label,
+        .stars label:hover,
+        .stars input[type="radio"]:checked ~ label:hover {
+            color: #ff9800;
+        }
+
+        .stars label:hover,
+        .stars input[type="radio"]:checked ~ label:hover {
+            color: #ffb74d;
+        }
+
+
+table{
+border:5px solid olivedrab;
+border-collapse:collapse;
+
+width :100%;
+}
+td{
+text-align:center;
+border:5px solid olivedrab;
+border-collapse:collapse;
+}
+body{
+background-color:black;
+color:white;
+}
+
+</style>
+</head>
+<body>
+
+<table><center>
+<tr>
+<td><img src="https://m.media-amazon.com/images/M/MV5BMDc3NWMwNGMtYjc3Mi00NzU5LWFiYjgtMTJjZGE3ZmFiNzRjXkEyXkFqcGc@._V1_.jpg" height=260px width=230px;><br></td>
+<td><b>Name:</b>THE FAMILY MAN<br><br><b>YEAR:</b>2019<br><br><b>Cast:</b>Ashlesha Thakur, Manoj Bajpayee, Priyamani, Samantha Ruth Prabhu, Abhay Verma, Shreya Dhanwanthary, Sharib Hashmi, Neeraj Madhav, Shruti Bhist, Gul Panag, Sunny Hinduja, Darshan Kumar, Sharad Kelkar,Sundeep Kishan, Devadarshini Sukumaran, Shahab Ali, Sanyukta Timsina, Abar Qazi, Vijay Vikram Singh, Ravindra Vijay, Kishore, Patralio, Dalip Tahil, Anand Sami, Mime Gopi, Asif Basra, Jay Upadhyay, Suresh Vishwakarma, Pawan Chopra, Aritro banerjee, Vipin Sharma, Mir Sarwar, Mark Bennington, Azhagam Perumal, Shahnawaz Pradhan, Sohila Kapoor,Ajay Jayadhav, Pravina Bhagwat, Sahid lateef, Rajesh Balachaniran, Kaustabh Kumar, Ashmith Kunder<b><br><br>
+Duration:</b><br>10 episodes<br><b>Ratings:</b>8.7/10<br><br><b>Genre:</b>Thriller<br><br>
+
+ <div class="rate-container">
+        <!-- Rate Now Button -->
+        <button class="rate-button" onclick="document.querySelector('.stars').style.display = 'flex';">
+            Rate Now
+        </button>
+
+        <!-- Star Rating Section -->
+        <div class="stars" style="display: none;">
+            <!-- Rating options (1 to 5 stars) -->
+            <input type="radio" id="star1" name="rating" value="1">
+            <label for="star1">&a#9733;</label>
+            <input type="radio" id="star2" name="rating" value="2">
+            <label for="star2">&#9733;</label>
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3">&#9733;</label>
+            <input type="radio" id="star4" name="rating" value="4">
+            <label for="star4">&#9733;</label>
+            <input type="radio" id="star5" name="rating" value="5">
+            <label for="star5">&#9733;</label>
+        </div>
+    </div>
+</td>
+<td><h1>Watch the Official Trailer of "The family Man"</h1>(Click on the image below to watch the trailer)
+<br><br>
+<a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNGf_B81Hc2M&psig=AOvVaw25QC1rIY4ZYGEuI5tT7AC3&ust=1734972810603000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCz4MLru4oDFQAAAAAdAAAAABAE"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5PUyaQIWwK4HdG0yXtIpupXRoJFmSx9WTbA&s"></img></a><br>
+
+   </td>
+</tr></table>
+<table>
+<tr>
+<td><b>Description: </b><br>Produced by Anurag Kashyap and Motwane under Phantom Productions.<br>"The family Man" is an Indian action-drama series that follows the story of Srikant Tiwari, a middle-class man working as a senior officer in the National Investigation Agency (NIA), who must balance his high-pressure, secretive job of protecting the country from terrorism while also trying to maintain a normal family life with his wife and children, often struggling with the impact his dangerous work has on his loved ones<br> </td>
+<td><b> Platforms :</b>Amazon Prime Video</td>
+</center>
+</table>
+<table>
+<tr>
+<td><b>Reviews: </b><br>
+<ol>
+<li>Movie Review: *The Family Man - It involves ideas of determinism and free will, as well as of psychological egoism.</li><br>
+<li>*The Family Man;/* What a series! Mind blowing acting, screenplay! The last scene of the last episode, it sounds like another season will come surely.
+
+The family man.</li><br>
+<li>With a solid start to the drama,with every episode makes you heart beat faster. The rawness of the drama is surreal and gets you hooked. Every episode leaves you with a question unanswered? and doesn't answer them till the very last. Great acting by the whole cast.Not only do the "star" actors shine but the an amazing supporting cast make keeps you engaged.Lastly, Dont watch the first episode if you have your exam the next day or i promise you you will be locked in your room for 8 hours straight.</li><br>
+<li>I believe i am the first person to complete the entire series and i am pretty sure i am in no position to go to the office right now. One thing about which i am very confident about is - Its one of the best Indian TV series so far. Amazing acting, Amazing direction, Super Amazing cinematography and what not.
+It was worth watching in a single go. I was completely engaged in the storyline. I would personally recommend it. Its totally different and its very much unpredictable.
+Good Job Team /\</li><br>
+<li>Jack Ryan, which also happens to be an Amazon original used to be my favourite action/drama series until I saw this masterpiece. This series is very realistic and an exciting take on spy based series where the spy drives some old messed up hatchback and not an Aston Martin. The series also shows how the underpaid job of a spy affects Sri and his family. 10/10 would recommend. Doesn't matter which country you're from</li><br>
+</ol>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td><div class="review-container">
+        <form>
+            <!-- Review Textbox -->
+            <textarea class="review-textbox" placeholder="Write your review here..."></textarea><br>
+            
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">Submit Review</button>
+        </form>
+    </div>
+
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td> <b>Cast :</b><br>
+<img src="https://i.pinimg.com/474x/da/de/43/dade43fa2c1c9a6086a8ab145bfd6a42.jpg" class="imag"></img>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpIH2WaKbKK_NFgUWbE_XDKNeo7oTj3BBphw&s" class="imag"></img>
+<img src="https://images.indianexpress.com/2024/04/Priyamani-on-male-dominance-on-Indian-cinema.jpg" class="imag"></img>
+</td>
+</tr></table>
+</body>
+</html>

@@ -1,0 +1,197 @@
+<html>
+<head>
+<style>
+.imag{
+            width: 150px;  /* Width of the image */
+            height: 150px; /* Height of the image */
+            object-fit: cover;  /* Ensures the image covers the entire circle */
+            border-radius: 50%;  /* This makes the image circular */
+            border: 5px solid #fff;  /* Optional: Adds a white border around the circle */
+        }
+        /* Textarea style */
+        .review-textbox {background-color:black;
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 5px;
+            resize: vertical;
+            font-size: 16px;
+            color: white;
+            transition: border-color 0.3s ease;
+        }
+
+        /* Focus effect on textarea */
+        .review-textbox:focus {
+            outline: none;
+            border-color: #4CAF50;
+        }
+
+        /* Submit button style */
+        .submit-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        /* Submit button hover effect */
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+
+
+.rate-container {
+            text-align: center;
+        }
+           .rate-button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .rate-button:hover {
+            background-color: #45a049;
+        }
+
+                .stars {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        
+        .stars input[type="radio"] {
+            display: none;
+        }
+
+        .stars label {
+            font-size: 40px;
+            color: #ccc;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .stars input[type="radio"]:checked ~ label {
+            color: #ff9800;
+        }
+
+         .stars input[type="radio"]:checked ~ label,
+        .stars label:hover,
+        .stars input[type="radio"]:checked ~ label:hover {
+            color: #ff9800;
+        }
+
+        .stars label:hover,
+        .stars input[type="radio"]:checked ~ label:hover {
+            color: #ffb74d;
+        }
+
+
+table{
+border:5px solid olivedrab;
+border-collapse:collapse;
+
+width :100%;
+}
+td{
+text-align:center;
+border:5px solid olivedrab;
+border-collapse:collapse;
+}
+body{
+background-color:black;
+color:white;
+}
+
+</style>
+</head>
+<body>
+
+<table><center>
+<tr>
+<td><img src="https://m.economictimes.com/thumb/msid-93917039,width-1200,height-900,resizemode-4,imgsize-63478/delhi-crime.jpg" height=260px width=230px;><br></td>
+<td><b>Name:</b>DELHI CRIME<br><br><b>YEAR:</b>2019<br><br><b>Cast:</b>Shefali Shah, Rasika Dugal, Tillotama Shome, Rajesh Tailang, Yashaswini Dayama, Mridul Sharma, Jalti Khera, Adil Hussain etc.<b><br><br>
+Duration:</b><br>12 episodes<br><b>Ratings:</b>8.5/10<br><br><b>Genre:</b>Thriller<br><br>
+
+ <div class="rate-container">
+        <!-- Rate Now Button -->
+        <button class="rate-button" onclick="document.querySelector('.stars').style.display = 'flex';">
+            Rate Now
+        </button>
+
+        <!-- Star Rating Section -->
+        <div class="stars" style="display: none;">
+            <!-- Rating options (1 to 5 stars) -->
+            <input type="radio" id="star1" name="rating" value="1">
+            <label for="star1">&a#9733;</label>
+            <input type="radio" id="star2" name="rating" value="2">
+            <label for="star2">&#9733;</label>
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3">&#9733;</label>
+            <input type="radio" id="star4" name="rating" value="4">
+            <label for="star4">&#9733;</label>
+            <input type="radio" id="star5" name="rating" value="5">
+            <label for="star5">&#9733;</label>
+        </div>
+    </div>
+</td>
+<td><h1>Watch the Official Trailer of "Delhi Crime"</h1>(Click on the image below to watch the trailer)
+<br><br>
+<a href="https://www.google.com/imgres?q=delhi%20crime%20trailer&imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FuLX_gQVsCK4%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DuLX_gQVsCK4&docid=AJnktUk8m5k3iM&tbnid=R5Au1EuWU6JwcM&vet=12ahUKEwjRyuPpgLyKAxX_1DgGHeYOKzkQM3oECG0QAA..i&w=1280&h=720&hcb=2&ved=2ahUKEwjRyuPpgLyKAxX_1DgGHeYOKzkQM3oECG0QAA"><img src="https://m.media-amazon.com/images/M/MV5BYzI0NDk4ZjAtY2YxMi00MTIzLWJiOTYtNzM3YzAzMThiMzMxXkEyXkFqcGc@._V1_.jpg"></img></a><br>
+
+   </td>
+</tr></table>
+<table>
+<tr>
+<td><b>Description: </b><br>Produced by Golden Karaven under lvanhoe Films Productions.<br>"Delhi Crime" is a Netflix web series based on the real-life 2012 Delhi gang rape case, focusing on the investigation led by Deputy Commissioner of Police (DCP) Vartika Chaturvedi as she attempts to apprehend the perpetrators of the brutal assault, while navigating intense public outrage and the complex social dynamics of Delhi in the aftermath of the crime.<br> </td>
+<td><b> Platforms :</b>Netflix</td>
+</center>
+</table>
+<table>
+<tr>
+<td><b>Reviews: </b><br>
+<ol>
+<li>Movie Review: *Delhi Crime</li><br>
+<li>It's just great. The show shows the other perspective of the actual Happenings. The media just showed us the view point of the victims's family, the series showed us from the perspective of the investigators of the case. Thank You Netflix and Richie Mehta for making this series.</li><br>
+<li>These actors are the new gems of Indian Content. Wow, their acting is just amazing. Thanks Netflix for focusing on Quality over quantity. Watch it, You will love it!</li><br>
+<li>Delhi Crime is no easy watch. In fact, it should come with a trigger warning. The show follows Delhi Police and how they nabbed the 6 accused in the unsettling 2012 gangrape case that shook the capital. The series is, at once, an unputdownable watch but an exhausting experience.</li><br>
+<li>I was very angry and overwhelmed at the same time when watching this. It's an amazing take on the real heinous act of inhuman treatment and ghastly Ugly reality of our so called society which holds their values to the core but don't know how to act on them. My guts were trolling when this happened and again when i was watching this. I really hope that such demonic creatures never come into existence and the accused get the justice they deserve asap</li><br>
+</ol>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td><div class="review-container">
+        <form>
+            <!-- Review Textbox -->
+            <textarea class="review-textbox" placeholder="Write your review here..."></textarea><br>
+            
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">Submit Review</button>
+        </form>
+    </div>
+
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td> <b>Cast :</b><br>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuUMqBVTdG7fDkLnddlqYZRNir8enUEql7HQ&s" class="imag"></img>
+<img src="https://m.media-amazon.com/images/M/MV5BMmU0M2M1Y2EtN2UxMy00NzQwLTkyMmMtZDI2Mjg0MzU3MDc1XkEyXkFqcGc@._V1_.jpg" class="imag"></img>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsaZuAVOV4TlV6kuQjzvBgS1Yi3bPQHaBhEQ&s" class="imag"></img>
+</td>
+</tr></table>
+</body>
+</html>

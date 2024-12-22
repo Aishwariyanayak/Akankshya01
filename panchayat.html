@@ -1,0 +1,197 @@
+<html>
+<head>
+<style>
+.imag{
+            width: 150px;  /* Width of the image */
+            height: 150px; /* Height of the image */
+            object-fit: cover;  /* Ensures the image covers the entire circle */
+            border-radius: 50%;  /* This makes the image circular */
+            border: 5px solid #fff;  /* Optional: Adds a white border around the circle */
+        }
+        /* Textarea style */
+        .review-textbox {background-color:black;
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 5px;
+            resize: vertical;
+            font-size: 16px;
+            color: white;
+            transition: border-color 0.3s ease;
+        }
+
+        /* Focus effect on textarea */
+        .review-textbox:focus {
+            outline: none;
+            border-color: #4CAF50;
+        }
+
+        /* Submit button style */
+        .submit-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        /* Submit button hover effect */
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+
+
+.rate-container {
+            text-align: center;
+        }
+           .rate-button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .rate-button:hover {
+            background-color: #45a049;
+        }
+
+                .stars {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        
+        .stars input[type="radio"] {
+            display: none;
+        }
+
+        .stars label {
+            font-size: 40px;
+            color: #ccc;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .stars input[type="radio"]:checked ~ label {
+            color: #ff9800;
+        }
+
+         .stars input[type="radio"]:checked ~ label,
+        .stars label:hover,
+        .stars input[type="radio"]:checked ~ label:hover {
+            color: #ff9800;
+        }
+
+        .stars label:hover,
+        .stars input[type="radio"]:checked ~ label:hover {
+            color: #ffb74d;
+        }
+
+
+table{
+border:5px solid olivedrab;
+border-collapse:collapse;
+
+width :100%;
+}
+td{
+text-align:center;
+border:5px solid olivedrab;
+border-collapse:collapse;
+}
+body{
+background-color:black;
+color:white;
+}
+
+</style>
+</head>
+<body>
+
+<table><center>
+<tr>
+<td><img src="https://m.media-amazon.com/images/M/MV5BYjIxNDA2MjMtZWQ5ZS00ZjA5LTljMzYtYTBhODRkZDk0NGYyXkEyXkFqcGc@._V1_.jpg" height=260px width=230px;><br></td>
+<td><b>Name:</b>PANCHAYAT<br><br><b>YEAR:</b>2020<br><br><b>Cast:</b>Jitendra Kumar, Sanvikaa, Raghubir Yadav, Faisal Mallik, Chandan Roy, Neena Gupta, Ashok Pathak, Durgesh Kumar, Aasif Khan,Pankaj Jha, Aanchal Tiwari, Sunita Rajwar etc.<b><br><br>
+Duration:</b><br>24 episodes<br><b>Ratings:</b>9/10<br><br><b>Genre:</b>Thriller<br><br>
+
+ <div class="rate-container">
+        <!-- Rate Now Button -->
+        <button class="rate-button" onclick="document.querySelector('.stars').style.display = 'flex';">
+            Rate Now
+        </button>
+
+        <!-- Star Rating Section -->
+        <div class="stars" style="display: none;">
+            <!-- Rating options (1 to 5 stars) -->
+            <input type="radio" id="star1" name="rating" value="1">
+            <label for="star1">&a#9733;</label>
+            <input type="radio" id="star2" name="rating" value="2">
+            <label for="star2">&#9733;</label>
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3">&#9733;</label>
+            <input type="radio" id="star4" name="rating" value="4">
+            <label for="star4">&#9733;</label>
+            <input type="radio" id="star5" name="rating" value="5">
+            <label for="star5">&#9733;</label>
+        </div>
+    </div>
+</td>
+<td><h1>Watch the Official Trailer of "Panchayat"</h1>(Click on the image below to watch the trailer)
+<br><br>
+<a href="https://youtu.be/ZNeGF-PvRHY"><img src="https://static.tnn.in/thumb/msid-110138582,thumbsize-123926,width-1280,height-720,resizemode-75/110138582.jpg"></img></a><br>
+
+   </td>
+</tr></table>
+<table>
+<tr>
+<td><b>Description: </b><br>Produced by Arunabh Kumar, Shreyansh Pandey and Vijay Koshy under TVF Productions.<br>"Panchayat" is a Hindi comedy-drama web series set in a rural Indian village called Phulera, following the story of a young, educated man from the city who takes on the role of a Panchayat Secretary, navigating the challenges and quirks of village life while trying to balance his aspirations for a bigger career; the show is known for its realistic portrayal of rural India, humorous situations, and stellar cast including Jitendra Kumar, Raghubir Yadav, and Neena Gupta.<br> </td>
+<td><b> Platforms :</b> Prime Video</td>
+</center>
+</table>
+<table>
+<tr>
+<td><b>Reviews: </b><br>
+<ol>
+<li>Movie Review: *Mirzapur - </li><br>
+<li>Panchayat is a very carefully crafted piece of work. For someone who has been in touch with the rural life, I can vouch that the whole setup seems quite natural and not at all forced. The gradually evolving chemistry between the characters lays out in front of you a beautifully woven & intricate fabric of the society, where you see the vulnerability of a common man. The occasional emotional outburst, disappointment, standing up for the other fellow and that innate innocence of every character doesn't stop short to bring out a smile on your face. On the other hand it brings to surface the subjects like class divide, dowry, gender inequality, population control, flexible morality and many such aspects. The makers looked conscious of keeping the plot and the story line tight and avoided needless stretching of subplots. One of the best webseries' produced in recent times. A must watch.</li><br>
+<li>This is the show that puts a smile on your face as you watch it. You get in love with each and every character of the show. At the end, I felt eight episode were not enough. Will wait for season 2.</li><br>
+<li>Beautifully made, Almost felt like i was living in that moment. The most appreciating thing is the content is presented with such a grace , and acting is simply awesome, this is perfect example when a good acting skills are mixed with an superb story and mind blowing direction.</li><br>
+<li>The Jitendra is the amitabh bachan of web series...really awesome series and must watch</li><br>
+</ol>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td><div class="review-container">
+        <form>
+            <!-- Review Textbox -->
+            <textarea class="review-textbox" placeholder="Write your review here..."></textarea><br>
+            
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">Submit Review</button>
+        </form>
+    </div>
+
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td> <b>Cast :</b><br>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ3J5AaEML41XjBrkr-YuHsRzBZIHSDf5_uTLC9MuF0d7XcO1E5rnzz3hrWLfxqtRcnEXqUxN_emZRNZ-fmGQ1im7-Gw2GoBrcjhSUsLA" class="imag"></img>
+<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR8SHyf58ImeEXlKVH4cAD40UCcLEZEgHTtdbNX-d_HAQgr2WhaNeK-Al7EFT2Ae9NCKOVzo9mKaUOdbZcXrJuBTQ" class="imag"></img>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVcIGOEqezJ_0JhHmM-F4b4YU_h-wuCXx1_w&s" class="imag"></img>
+</td>
+</tr></table>
+</body>
+</html>

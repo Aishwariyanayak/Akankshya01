@@ -1,0 +1,197 @@
+<html>
+<head>
+<style>
+.imag{
+            width: 150px;  /* Width of the image */
+            height: 150px; /* Height of the image */
+            object-fit: cover;  /* Ensures the image covers the entire circle */
+            border-radius: 50%;  /* This makes the image circular */
+            border: 5px solid #fff;  /* Optional: Adds a white border around the circle */
+        }
+        /* Textarea style */
+        .review-textbox {background-color:black;
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 5px;
+            resize: vertical;
+            font-size: 16px;
+            color: white;
+            transition: border-color 0.3s ease;
+        }
+
+        /* Focus effect on textarea */
+        .review-textbox:focus {
+            outline: none;
+            border-color: #4CAF50;
+        }
+
+        /* Submit button style */
+        .submit-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        /* Submit button hover effect */
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+
+
+.rate-container {
+            text-align: center;
+        }
+           .rate-button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .rate-button:hover {
+            background-color: #45a049;
+        }
+
+                .stars {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        
+        .stars input[type="radio"] {
+            display: none;
+        }
+
+        .stars label {
+            font-size: 40px;
+            color: #ccc;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .stars input[type="radio"]:checked ~ label {
+            color: #ff9800;
+        }
+
+         .stars input[type="radio"]:checked ~ label,
+        .stars label:hover,
+        .stars input[type="radio"]:checked ~ label:hover {
+            color: #ff9800;
+        }
+
+        .stars label:hover,
+        .stars input[type="radio"]:checked ~ label:hover {
+            color: #ffb74d;
+        }
+
+
+table{
+border:5px solid olivedrab;
+border-collapse:collapse;
+
+width :100%;
+}
+td{
+text-align:center;
+border:5px solid olivedrab;
+border-collapse:collapse;
+}
+body{
+background-color:black;
+color:white;
+}
+
+</style>
+</head>
+<body>
+
+<table><center>
+<tr>
+<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIPAeT2vMv9m5JAWwRkCHSiQH3wQYZJ8SCzA&s" height=260px width=230px;><br></td>
+<td><b>Name:</b>SCARED GAME<br><br><b>YEAR:</b>2018<br><br><b>Cast:</b>Nawazuddin Siddiqui, Saif Ali Khan, Elnaaz Norouzi, Rajshree Deshpande, Kubbra Sait, Radhika Apte, Pankaj Tripathi, Kalki Koechlin, Jatin Sama, Surveen Chawla, Neeraj Kabi, Amruta Subhash, Saurabh Sachdeva, Jitendra Joshi, Ranvir Shorey, Samir Kochhar, Shalini VAsta, Anil Charanjeett, Nawab Shah, Aamir Bashitr, Anupriya Goenka, Muni Jhah, Girish Kulkami, Rajendra Shisatkar, Chittaranjan Tripathy, Sukhmani Sadana, Geetanjali Thapa, Vikram Kochhar, Karan Wahi, Affan Khan, Luke Kenny, Sunny Pawar, Danish Pandor<b><br><br>
+Duration:</b><br>8 episodes<br><b>Ratings:</b>8.5/10<br><br><b>Genre:</b>Thriller<br><br>
+
+ <div class="rate-container">
+        <!-- Rate Now Button -->
+        <button class="rate-button" onclick="document.querySelector('.stars').style.display = 'flex';">
+            Rate Now
+        </button>
+
+        <!-- Star Rating Section -->
+        <div class="stars" style="display: none;">
+            <!-- Rating options (1 to 5 stars) -->
+            <input type="radio" id="star1" name="rating" value="1">
+            <label for="star1">&#9733;</label>
+            <input type="radio" id="star2" name="rating" value="2">
+            <label for="star2">&#9733;</label>
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3">&#9733;</label>
+            <input type="radio" id="star4" name="rating" value="4">
+            <label for="star4">&#9733;</label>
+            <input type="radio" id="star5" name="rating" value="5">
+            <label for="star5">&#9733;</label>
+        </div>
+    </div>
+</td>
+<td><h1>Watch the Official Trailer of "Scared Game"</h1>(Click on the image below to watch the trailer)
+<br><br>
+<a href="https://timesofindia.indiatimes.com/videos/entertainment/web-series/mx-play/hindi/sacred-games-season-1-official-teaser/videoshow/76155139.cms"><img src="https://resizing.flixster.com/HxeRJa1av37ZXRU7367gVad-hWQ=/fit-in/352x330/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15541733_b_h9_aa.jpg"></img></a><br>
+
+   </td>
+</tr></table>
+<table>
+<tr>
+<td><b>Description: </b><br>Produced by Anurag Kashyap and Motwane under Phantom Productions.<br>"Scared Game" is a gripping Indian crime thriller series that follows Sartaj Singh  trouble Mumbai police officer who receives a chilling phone call from the notorious gangster Ganesh Gaitonde.<br><br> Gaitonde warns Sartaj to save the city within 25 days, setting of a chain of events that unrabels a complex web of crying, corporation and political conspirancy.<br> </td>
+<td><b> Platforms :</b>Netflix</td>
+</center>
+</table>
+<table>
+<tr>
+<td><b>Reviews: </b><br>
+<ol>
+<li>Movie Review: *Scared Game - A Gripping Tale of Passion, Power, and Redemption</li><br>
+<li>*Scared Game;/* is a cinematic masterpiece that will take you on a rollercoaster of emotions from start to finish. Directed by a visionary filmmaker, the movie blends intense action, deep emotional drama, and a captivating narrative that pulls you in from the very first frame.</li><br>
+<li>With a solid start to the drama,with every episode makes you heart beat faster. The rawness of the drama is surreal and gets you hooked. Every episode leaves you with a question unanswered? and doesn't answer them till the very last. Great acting by the whole cast.Not only do the "star" actors shine but the an amazing supporting cast make keeps you engaged.Lastly, Dont watch the first episode if you have your exam the next day or i promise you you will be locked in your room for 8 hours straight.</li><br>
+<li>First of all, hats off Anurag Kashyap and Vikramaditay Motwane, how did you manage to put this together is an amazing feat. I am saying this because they both have directed the show but for different characters (Anurag for Nawaz Storyline and Vikram for Saif's). The performances are amazing and Varun Grover deserves all the applause for writing down street smart dialogues. With every character having a grey role in the show, all the characters have layers of sketch going into it. Eagerly waiting for Season 2!</li><br>
+<li>Not an Indian but am completely hooked. Better watching this in Indian with subtitles than the English dub. Great story, great actors and the way they finished the season, just when it starts getting more interesting makes me mad because I've got to wait how long until the next season haha</li><br>
+</ol>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td><div class="review-container">
+        <form>
+            <!-- Review Textbox -->
+            <textarea class="review-textbox" placeholder="Write your review here..."></textarea><br>
+            
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">Submit Review</button>
+        </form>
+    </div>
+
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td> <b>Cast :</b><br>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHrR18bBig0XDRDC0wLZXwL09UICf5Lq-YxA&s" class="imag"></img>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJc9BxtX0JGzyYV7qXROa5IvrthZoLHqgeLw&s" class="imag"></img>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5XUbbvm2l3RrZMpJmGlccs6kd6UyteN1p7w&s" class="imag"></img>
+</td>
+</tr></table>
+</body>
+</html>
